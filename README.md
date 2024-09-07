@@ -1,5 +1,8 @@
-1. Route
-1. Controller
-1. View
-
-echoing variable atau fungsi, pake {{ }}
+- jalankan `git clone https://github.com/rizkyilhampra/admin-panel-crud-jwd` di path `/c/laragon/www`
+- masuk ke folder admin-panel-crud-jwd atau dengan cli `cd admin-panel-crud-jwd`
+- `composer install`
+- copy file `.env.example` paste menjadi `.env` atau melalui cli `cp .env.example .env`
+- `php artisan key:generate`
+- modifikasi konfigurasi database di file `.env`
+- `php artisan migrate --seed`
+- `php artisan serve` atau buka melalui laragon `http://localhost/admin-panel-crud-jwd` atau `admin-panel-crud-jwd.test`
